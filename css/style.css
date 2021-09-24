@@ -468,6 +468,12 @@ body {
     grid-template-rows: minmax(150px, auto) 1fr minmax(200px, auto);
   }
 }
+@media (max-width: 340px) {
+  .wrapper {
+    -ms-grid-rows: minmax(0px, auto) 1fr minmax(100px, auto);
+    grid-template-rows: minmax(0px, auto) 1fr minmax(100px, auto);
+  }
+}
 
 button {
   color: white;
@@ -552,6 +558,11 @@ button {
   display: block;
   color: white;
 }
+@media (max-width: 340px) {
+  .header__right .header__phone {
+    font-size: 20px;
+  }
+}
 .header__right .header__humburger {
   display: none;
   -webkit-box-flex: 1;
@@ -598,6 +609,12 @@ button {
   background-size: 55%;
   padding-bottom: 100px;
   margin-bottom: 100px;
+}
+@media (max-width: 1440px) {
+  .main-wrapper {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 1024px) {
   .main-wrapper {
@@ -667,6 +684,11 @@ button {
 @media (max-width: 780px) {
   .main-wrapper .main__left-block .main__sub-title {
     font-size: 1rem;
+  }
+}
+@media (max-width: 340px) {
+  .main-wrapper .main__left-block .main__sub-title {
+    margin-bottom: 40px;
   }
 }
 .main-wrapper .main__left-block .main__button {
@@ -816,6 +838,11 @@ button {
     text-align: center;
   }
 }
+@media (max-width: 340px) {
+  .design-wrapper .design__block .design__text .design__title {
+    font-size: 1.5rem;
+  }
+}
 .design-wrapper .design__block .design__text .design-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -826,6 +853,11 @@ button {
   margin-top: 1rem;
   margin-bottom: 1rem;
   line-height: 1.6;
+}
+@media (max-width: 340px) {
+  .design-wrapper .design__block .design__text .design__subtitle {
+    font-size: 14px;
+  }
 }
 .design-wrapper .design__block .design__text .design__more {
   background-color: transparent;
@@ -885,6 +917,11 @@ button {
   background-color: transparent;
   padding-bottom: 7px;
   margin-right: 10px;
+}
+@media (max-width: 340px) {
+  .design-list__item {
+    font-size: 18px;
+  }
 }
 
 .design-list__item_active {
