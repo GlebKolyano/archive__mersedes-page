@@ -597,6 +597,11 @@ button {
     margin-bottom: 0px;
   }
 }
+@media (max-width: 780px) {
+  .main-wrapper {
+    padding-bottom: 0;
+  }
+}
 .main-wrapper .main__left-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -617,6 +622,11 @@ button {
     font-size: 5rem;
   }
 }
+@media (max-width: 780px) {
+  .main-wrapper .main__left-block .main__title {
+    font-size: 3rem;
+  }
+}
 .main-wrapper .main__left-block .main__sub-title {
   color: rgba(173, 173, 173, 0.466);
   font-size: 1.5rem;
@@ -627,6 +637,11 @@ button {
 @media (max-width: 1024px) {
   .main-wrapper .main__left-block .main__sub-title {
     font-size: 1.3rem;
+  }
+}
+@media (max-width: 780px) {
+  .main-wrapper .main__left-block .main__sub-title {
+    font-size: 1rem;
   }
 }
 .main-wrapper .main__left-block .main__button {
@@ -650,6 +665,11 @@ button {
   height: 46px;
   padding: 5px;
   position: relative;
+}
+@media (max-width: 780px) {
+  .main-wrapper .main__left-block .main__scroll-btn {
+    display: none;
+  }
 }
 .main-wrapper .main__left-block .main__scroll-btn::before {
   font-family: "icomoon";
