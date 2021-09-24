@@ -442,6 +442,10 @@ template {
   display: none;
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
   font-family: "";
   background-color: black;
@@ -499,7 +503,7 @@ button {
   color: white;
 }
 .header__left > .header__menu ul li {
-  margin-right: 50px;
+  margin-right: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -508,7 +512,7 @@ button {
   color: white;
 }
 .header__left > .header__logo {
-  margin-right: 95px;
+  margin-right: 35px;
 }
 
 .header__right {
@@ -522,8 +526,8 @@ button {
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 50vw;
-          flex: 0 1 50vw;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
 }
 .header__right .header__phone {
   font-size: 26px;
@@ -549,10 +553,11 @@ button {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: white;
-  font-size: 26px;
+  font-size: 2rem;
 }
 
 .main-wrapper {
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -560,7 +565,7 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: url(../../img/car/image-1.png) 80% 100% no-repeat;
-  background-size: 650px;
+  background-size: 50%;
 }
 .main-wrapper .main__left-block {
   display: -webkit-box;
@@ -573,21 +578,21 @@ button {
 }
 .main-wrapper .main__left-block .main__title {
   font-weight: bold;
-  font-size: 86px;
+  font-size: 7rem;
   color: white;
   line-height: 0;
 }
 .main-wrapper .main__left-block .main__sub-title {
   color: rgba(173, 173, 173, 0.466);
-  font-size: 26px;
+  font-size: 1.5rem;
   line-height: 1.5;
-  max-width: 450px;
+  max-width: 650px;
   margin-bottom: 70px;
 }
 .main-wrapper .main__left-block .main__button {
   text-align: center;
   background: linear-gradient(93.53deg, #ed3125 11.43%, #e8223a 80.79%);
-  font-size: 18px;
+  font-size: 1rem;
   color: white;
   max-width: 200px;
   font-weight: 700;
@@ -606,12 +611,12 @@ button {
   content: "";
   position: absolute;
   color: white;
-  font-size: 46px;
+  font-size: 3rem;
 }
 
 .main__right-block .main__button-play {
   color: #e8223a;
-  font-size: 16px;
+  font-size: 1rem;
   padding-left: 30px;
   background: url(../../img/icon/play.svg) no-repeat;
 }
