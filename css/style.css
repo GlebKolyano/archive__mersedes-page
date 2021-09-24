@@ -459,6 +459,10 @@ body {
   max-width: 90%;
 }
 
+.hide {
+  display: none;
+}
+
 .header {
   padding-top: 40px;
 }
