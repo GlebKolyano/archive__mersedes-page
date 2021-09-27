@@ -830,9 +830,9 @@ button {
   right: 10%;
   bottom: 10%;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 @media (max-width: 1024px) {
   .design-wrapper .design__block .design__photo img {
@@ -920,9 +920,9 @@ button {
 .design-wrapper .design__gallery .design__img {
   display: block;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   max-width: 23%;
 }
 @media (max-width: 1024px) {
@@ -992,9 +992,9 @@ button {
   right: 10%;
   bottom: 10%;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 @media (max-width: 1024px) {
   .info__image-block img {
@@ -1232,7 +1232,7 @@ button {
   height: 545px;
   max-height: 100%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-color: #080808;
   padding: 71px 57px;
   border: 1px solid #ffffff;
