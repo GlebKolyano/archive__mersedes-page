@@ -1,5 +1,14 @@
 //
 const form = document.querySelector('.contacts-form')
+const modal = document.querySelector('.modal-form')
+//
+modal.addEventListener('click', event => {
+  console.log(event.target)
+  if (event.target != modal ) {
+    modal.classList.add('hide')
+  }
+})
+
 //
 form.addEventListener('submit', (event) => {
   event.preventDefault()
@@ -19,9 +28,14 @@ form.addEventListener('submit', (event) => {
       throw new Error(response.status)
     }
   }).then( () => {
-    alert('Данные отправлены!');
+    modal.classList.remove('hide')
+
     form.reset()
   }).catch(error => {
     alert('Призошла ошибка, статус ' + error.message)
   })
 })
+
+
+
+
