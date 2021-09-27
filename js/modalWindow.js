@@ -1,0 +1,1 @@
+const modalBtns = document.querySelectorAll('.design__more')
