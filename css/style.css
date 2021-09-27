@@ -631,7 +631,7 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url(../../img/car/image-1.png) 80% 35% no-repeat;
+  background: url(/mersedes__page/img/car/image-1.png) 80% 35% no-repeat;
   background-size: 55%;
   padding-bottom: 100px;
   margin-bottom: 100px;
@@ -766,7 +766,7 @@ button {
   color: #e8223a;
   font-size: 1rem;
   padding-left: 30px;
-  background: url(../../img/icon/play.svg) no-repeat;
+  background: url(/mersedes__page/img/icon/play.svg) no-repeat;
 }
 
 .design-wrapper {
