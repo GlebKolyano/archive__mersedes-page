@@ -1,1 +1,1 @@
-const modalBtns = document.querySelectorAll('.design__more')
+const modalBtn = document.querySelector('.design__more')
