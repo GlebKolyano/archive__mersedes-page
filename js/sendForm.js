@@ -1,5 +1,6 @@
+//
 const form = document.querySelector('.contacts-form')
-// https://jsonplaceholder.typicode.com/todos/1
+//
 form.addEventListener('submit', (event) => {
   event.preventDefault()
   let data = {}
@@ -8,6 +9,7 @@ form.addEventListener('submit', (event) => {
       data[name] = value;
     }
   }
+//
   fetch('https://jsonplaceholder.typicode.com/todos/1/posts', 
   {method: 'POST', body: JSON.stringify(data)})
   .then((response) => {
@@ -16,7 +18,7 @@ form.addEventListener('submit', (event) => {
     } else {
       throw new Error(response.status)
     }
-  }).then( data => {
+  }).then( () => {
     alert('Данные отправлены!');
     form.reset()
   }).catch(error => {
