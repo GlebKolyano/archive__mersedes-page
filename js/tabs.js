@@ -15,4 +15,4 @@ for (const button of getBtns) {
       }
     })
   })
-}
+} 
