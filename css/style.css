@@ -510,11 +510,6 @@ button {
   display: flex;
   color: white;
 }
-@media (max-width: 990px) {
-  .header__left > .header__menu ul {
-    display: none;
-  }
-}
 .header__left > .header__menu ul li {
   margin-right: 30px;
   display: -webkit-box;
@@ -595,6 +590,32 @@ button {
   .header__right .header__humburger::after {
     display: block !important;
   }
+}
+
+.header__menu-active {
+  display: block;
+  position: absolute;
+  background-color: #000;
+  z-index: 666;
+  padding: 50px 20px 20px;
+  border-radius: 15px;
+  -webkit-transition: top 0.5s;
+  transition: top 0.5s;
+  top: 0;
+  right: 10%;
+}
+.header__menu-active > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.header__menu-active > ul > li {
+  margin-bottom: 15px;
+  font-size: 24px;
 }
 
 .main-wrapper {

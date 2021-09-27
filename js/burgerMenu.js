@@ -1,0 +1,1 @@
+const burgerBtn = document.querySelector('.header__humburger')
