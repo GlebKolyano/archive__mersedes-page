@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="../js/accordion.js" defer></script>
   <script src="../js/smoothScroll.js" defer></script>
+  <script src="../js/tabs.js" defer></script>
+
 
   <title>Document</title>
 </head>
@@ -59,8 +61,8 @@
       <div class="design-wrapper" id="design">
         <div class="design__block">
           <div class="design__photo">
-            <img src="/img/car/image-5.png" class="">
-            <img src="/img/car/image-5.png" class="hide">
+            <img src="/img/car/image-5.png" class="design__img" data-tabs-field="interior">
+            <img src="/img/car/image-4.png" class="design__img hide" data-tabs-field="body">
           </div>
 
           <div class="design__text">
@@ -80,7 +82,7 @@
                   впустую. Это время
                   для восстановления сил. Автомобиль надежно и с комфортом доставит вас до места назначения.
                 </p>
-                <button class="design__more">Узнать больше</button>
+                <button class="design__more" data-tabs-field="interior">Узнать больше</button>
               </li>
               <li>
                 <p class="design__subtitle hide " data-tabs-field="body">Благодаря длинной задней части, новый A-Class
@@ -90,7 +92,7 @@
                   0,22 новая модель седана сравнялась с мировым рекордом CLA Coupe. A-Class Sedan
                   имеет самое низкое аэродинамическое сопротивление среди всех серийных автомобилей в
                   мире.</p>
-                <button class="design__more hide">Узнать больше</button>
+                <button class="design__more hide" data-tabs-field="body">Узнать больше</button>
               </li>
             </ul>
           </div>
