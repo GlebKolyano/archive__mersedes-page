@@ -66,12 +66,15 @@
           <div class="design__text">
             <h1 class="design__title">Комфорт в деталях</h1>
             <ul class="design-list">
-              <li><button class="design-list__item design-list__item_active">Дизайн салона</button></li>
-              <li><button class="design-list__item">Дизайн кузова</button></li>
+              <li><button class="design-list__item design-list__item_active" data-tabs-handler="interior">Дизайн
+                  салона</button>
+              </li>
+              <li><button class="design-list__item" data-tabs-handler="body">Дизайн кузова</button></li>
             </ul>
             <ul>
               <li>
-                <p class="design__subtitle">Будь то час пик, длительная ночная поездка или незнакомая дорога, ваш новый
+                <p class="design__subtitle" data-tabs-field="interior">Будь то час пик, длительная ночная поездка или
+                  незнакомая дорога, ваш новый
                   A-Class седан ощутимо снимет с вас нагрузку,
                   особенно в стрессовых ситуациях. Время, которое вы проводите за рулем автомобиля, не должно проходить
                   впустую. Это время
@@ -80,7 +83,8 @@
                 <button class="design__more">Узнать больше</button>
               </li>
               <li>
-                <p class="design__subtitle hide">Благодаря длинной задней части, новый A-Class Sedan обладает еще
+                <p class="design__subtitle hide " data-tabs-field="body">Благодаря длинной задней части, новый A-Class
+                  Sedan обладает еще
                   лучшими
                   аэродинамическими показателями, чем A-Class Hatchback (Cd от 0,25). С показателем
                   0,22 новая модель седана сравнялась с мировым рекордом CLA Coupe. A-Class Sedan
@@ -94,14 +98,14 @@
         </div>
         <div class="design__gallery">
           <ul>
-            <li class="design__preview">
+            <li class="design__preview" data-tabs-field="interior">
               <img src="/img/design/interior01.jpg" alt="" class="design__img">
               <img src="/img/design/interior02.jpg" alt="" class="design__img">
               <img src="/img/design/interior03.jpg" alt="" class="design__img">
               <img src="/img/design/interior04.jpg" alt="" class="design__img">
             </li>
           </ul>
-          <li class="design__preview hide">
+          <li class="design__preview hide" data-tabs-field="body">
             <img src="/img/design/body01.jpg" alt="" class="design__img">
             <img src="/img/design/body02.jpg" alt="" class="design__img">
             <img src="/img/design/body03.jpg" alt="" class="design__img">
